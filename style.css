@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header{
+    background-color: black;
+    border-bottom: 5px solid red;
+
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header li {
+display: inline;
+padding: 0 15px;
+}
+
+#title{
+    color: white;
+    text-transform: capitalize;
+}
+
+#title span {
+color: red;
+}
+
+#main{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.6) ), url('/images/pc.jpg');
+
+
+    text-align: center;
+    height: 90vh;
+    background-size: cover;
+}
+
+#main h1{
+    color: white;
+    margin: 200px 0 30px;
+    font-size: 50px;
+}
+
+#main p{
+    color: white;
+    font-size: 25px;
+
+}
+
+#about, #contact{
+    background-color: black;
+    color: white;
+}
+
+#about h2, #contact h2 {
+    text-transform: capitalize;
+    color: red;
+    text-align: center;
+}
+
+#about p, #contact p {
+    padding: 5px;
+
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
